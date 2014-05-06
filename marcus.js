@@ -1,0 +1,10 @@
+goog.addDependency("base.js", ['goog'], []);
+goog.addDependency("../cljs/core.js", ['cljs.core'], ['goog.string', 'goog.array', 'goog.object', 'goog.string.StringBuffer']);
+goog.addDependency("../schema/utils.js", ['schema.utils'], ['cljs.core', 'goog.string', 'goog.string.format']);
+goog.addDependency("../clojure/string.js", ['clojure.string'], ['cljs.core', 'goog.string', 'goog.string.StringBuffer']);
+goog.addDependency("../schema/core.js", ['schema.core'], ['cljs.core', 'schema.utils', 'clojure.string']);
+goog.addDependency("../clojure/walk.js", ['clojure.walk'], ['cljs.core']);
+goog.addDependency("../secretary/core.js", ['secretary.core'], ['cljs.core', 'clojure.walk', 'clojure.string']);
+goog.addDependency("../om/dom.js", ['om.dom'], ['cljs.core']);
+goog.addDependency("../om/core.js", ['om.core'], ['cljs.core', 'om.dom']);
+goog.addDependency("../marcus/core.js", ['marcus.core'], ['goog.history.EventType', 'schema.core', 'cljs.core', 'secretary.core', 'om.core', 'goog.History', 'om.dom', 'goog.events']);

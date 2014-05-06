@@ -1,0 +1,23 @@
+{
+  "name": "aurelius",
+  "version": "0.0.0",
+  "authors": [
+    "Ben Sima <bensima@gmail.com>"
+  ],
+  "description": "Quotes from Marcus Aurelius",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://aurelius.co",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "inuit-starter-kit": "~0.1.1",
+    "modernizr": "~2.7.2",
+  }
+}
